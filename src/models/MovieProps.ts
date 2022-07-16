@@ -1,4 +1,4 @@
-interface MovieProps {
+export interface MovieProps {
   imdbID: string;
   Title: string;
   Poster: string;
@@ -8,5 +8,3 @@ interface MovieProps {
   }>;
   Runtime: string;
 }
-
-export default MovieProps;
